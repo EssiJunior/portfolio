@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     padding: 5rem 2rem;
-    background: rgb(5,8,22);
-background: linear-gradient(183deg, rgba(5,8,22,1) 39%, rgba(0,0,0,1) 68%, rgba(0,0,0,1) 100%);
+    background: rgb(0,34,21);
+background: linear-gradient(188deg, rgba(0,34,21,1) 10%, rgba(0,34,21,1) 46%, rgba(0,0,0,1) 100%);
 }
 
 .footer-heading {

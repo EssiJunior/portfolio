@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-
+import resume from "../assets/data/CV.pdf"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -45,6 +45,14 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li
+            className={`${
+              active === 'Resume' ? "text-white" : "text-secondary"
+            } hover:text-white text-[15px] font-medium cursor-pointer`}
+            onClick={() => setActive('Resume')}
+          >
+            <a id='resume' href={resume} rel='noreferrer' target='_blank'>Resume</a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -72,9 +80,20 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a id='resume' href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  active === 'Resume' ? "text-white" : "text-secondary"
+                }`}
+                onClick={() => {
+                  setToggle(!toggle);
+                  setActive('Resume');
+                }}
+              >
+                <a href={resume} rel='noreferrer' target='_blank'>Resume</a>
+              </li>
             </ul>
           </div>
         </div>

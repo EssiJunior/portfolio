@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from './tech/python.svg';
+import kotlin from './tech/Kotlin.svg';
+import mui from './tech/mui.svg';
+import bootstrap from './tech/bootstrap.png';
+import java from './tech/java.png';
+import photoshop from './tech/photoshop.png';
+import premierepro from './tech/premiere_pro.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  photoshop,
+  premierepro,
+  java,
+  kotlin,
+  mui,
+  bootstrap
 };

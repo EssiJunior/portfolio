@@ -53,19 +53,19 @@
 }
 
 .secondary-gradient {
-  background: #ff4a3f;
-  background: linear-gradient(-90deg, #ff4a3f 0%, rgba(60, 51, 80, 0) 100%);
+  background: #eeba00;
+  background: linear-gradient(-90deg, #eeba00 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ff4a3f 0%,
+    #eeba00 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
-.green-pink-gradient {
+.green-yellow-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #eec42e 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #eec42e 97.5%);
 }
 
 .orange-text-gradient {
@@ -141,7 +141,9 @@
   -webkit-text-fill-color: transparent;
 }
 
-
+.droper{
+  /* backdrop-filter: blur(15px); */
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

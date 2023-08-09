@@ -35,10 +35,6 @@ import {
       title: "Experience",
     },
     {
-      id: "resume",
-      title: "Resume",
-    },
-    {
       id: "project",
       title: "Projects",
     },
@@ -54,15 +50,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Desktop Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Engineer",
       icon: creator,
     },
   ];
@@ -124,54 +120,59 @@ import {
   
   const experiences = [
     {
+      title: "Python Developer",
+      company_name: "Personal, For individuals, Powerk-soft, Pro service",
+      // icon: shopify,
+      // iconBg: "#383E56",
+      date: "Since - Sept 2021",
+      points: [
+        "Developing and maintaining, fullstack desktop (Tkinter and related) and backend web applications (FastAPI and related).",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Android Developer",
+      company_name: "Personal, For individuals",
+      // icon: shopify,
+      // iconBg: "#383E56",
+      date: "Since - July 2022",
+      points: [
+        "Developing and maintaining, fullstack android application using Kotlin and related technologies.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      company_name: "Powerk-soft, Pro service",
+      // icon: starbucks,
+      // iconBg: "#383E56",
+      date: "Since - Oct 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Beside the work done in these companies, some of my realisations were for individuals."
       ],
     },
     {
       title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      company_name: "Personal",
+      date: "Since - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing mobile cross-platform applications using React Native and other related technologies.",
+        "In some projects teams with friends including designers and other developers to create high-quality products, one of those was presented at the 2022 Github Hackaton.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Electron.js Developer",
+      company_name: "Powerk-soft",
+      date: "Since - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining desktop applications using Electron.js.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
