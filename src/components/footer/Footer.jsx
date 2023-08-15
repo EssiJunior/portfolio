@@ -1,4 +1,3 @@
-import React from 'react';
 import gpt3Logo from '../../assets/logo.svg';
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import './footer.css';
@@ -40,9 +39,9 @@ const Footer = () => (
     <div className="footer-copyright flex flex-col justify-center w-4/5 items-center">
       <p className='text-secondary'>Developped by @EssiJunior.</p>
       <div className='links w-1/5 flex justify-evenly items-center mt-3'> 
-        <a href='#'><FaGithub /></a>
-        <a href='#'><FaLinkedin /></a>
-        <a href='#'><FaTwitter /></a>
+        <a href='https://github.com/EssiJunior'><FaGithub /></a>
+        <a href='https://www.linkedin.com/in/pierre-junior-ndang-essi-86290b254/'><FaLinkedin /></a>
+        <a href='https://mobile.twitter.com/EssiJunior1'><FaTwitter /></a>
       </div>
     </div>
   </div>

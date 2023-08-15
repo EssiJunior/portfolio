@@ -37,6 +37,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import recho from "./projects/recho.png"
+import portfolio from "./projects/portfolio.png"
+import bus from "./projects/bus.png"
+import estate from "./projects/estate.png"
+import ps from "./projects/ps.png"
+
 export {
   logo,
   backend,
@@ -72,5 +78,10 @@ export {
   java,
   kotlin,
   mui,
-  bootstrap
+  bootstrap,
+  recho,
+  portfolio,
+  bus,
+  estate,
+  ps
 };

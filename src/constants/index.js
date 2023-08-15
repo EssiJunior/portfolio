@@ -13,7 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    java,
     docker,
     meta,
     starbucks,
@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    kotlin,
+    recho,
+    portfolio,
+    bus,
+    estate,
+    ps
   } from "../assets";
   
   export const navLinks = [
@@ -65,6 +72,10 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -89,8 +100,8 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Docker",
+      icon: docker,
     },
     {
       name: "Node JS",
@@ -108,13 +119,13 @@ import {
       name: "git",
       icon: git,
     },
+    // {
+    //   name: "Kotlin",
+    //   icon: kotlin,
+    // },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Java",
+      icon: java,
     },
   ];
   
@@ -207,9 +218,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "My Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Website presenting me, my works and my experience in my developper life. This will indeed open this site again.",
       tags: [
         {
           name: "react",
@@ -224,50 +235,120 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      demo_link: "https://essijunior-portfolio.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Pro Service",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "e-commerce site that enables users to buy products online in a rapid, simple, organised and control manner.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "fastapi",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ps,
+      demo_link: "#",
     },
     {
-      name: "Trip Guide",
+      name: "Recho",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web application that enables users to manage echographic consultations in a rapid, simple, organised and control manner.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "node.js",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "preline",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: recho,
+      demo_link: "https://recho-xi.vercel.app/",
+    },
+    {
+      name: "Real estate",
+      description:
+        "Web application that permits to manage/visualise real estate products online in a rapid, simple, organised, secured and control manner.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "electron",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastapi",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: estate,
+      demo_link: "#",
+    },
+    {
+      name: "Bus tickets",
+      description:
+        "Web application that permits to manage/reserve bus tickets online in a rapid, simple, organised, secured and control manner.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "electron",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastapi",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bus,
+      demo_link: "#",
     },
   ];
   
