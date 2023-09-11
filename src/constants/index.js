@@ -15,21 +15,17 @@ import {
     git,
     java,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     python,
     kotlin,
     recho,
+    photoshop,
     portfolio,
     bus,
     estate,
-    ps
+    ps,
+    bs,
+    pharma
   } from "../assets";
   
   export const navLinks = [
@@ -88,10 +84,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -126,6 +118,10 @@ import {
     {
       name: "Java",
       icon: java,
+    },
+    {
+      name: "Photoshop",
+      icon: photoshop,
     },
   ];
   
@@ -192,26 +188,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I really liked the color shades and colors he used in one application he made for me.",
+      name: "Francis Kamadjou",
+      designation: "CEO",
+      company: "Powerksoft",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I liked the simplicity of my website, he realy just made it simple but awesome",
+      name: "Pastor Mama Aissatou",
+      designation: "lawyer",
+      company: "CRTV",
+      image: "../assets/Bronze.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "He made a nice e-commerce dashboard for the management of my products, really nice and cool to use.",
+      name: "Aboubakar",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "Pro Service",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -256,12 +252,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: ps,
-      demo_link: "#",
+      demo_link: "https://proservice.cm/",
     },
     {
       name: "Recho",
@@ -348,6 +344,48 @@ import {
         },
       ],
       image: bus,
+      demo_link: "#",
+    },
+    {
+      name: "Pastor Aissatou website",
+      description:
+        "The website of Pastor Aissatou Esther, presenting her and her faith, simplified and comprehensive interface.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bs,
+      demo_link: "#",
+    },
+    {
+      name: "Pharma",
+      description:
+        "An Android app offering the presentation of utility medical equipments and materials.",
+      tags: [
+        {
+          name: "Android-xml",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Kotlin",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Sqlite",
+          color: "green-text-gradient",
+        },
+      ],
+      image: pharma,
       demo_link: "#",
     },
   ];

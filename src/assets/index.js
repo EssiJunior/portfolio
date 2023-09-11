@@ -27,21 +27,20 @@ import bootstrap from './tech/bootstrap.png';
 import java from './tech/java.png';
 import photoshop from './tech/photoshop.png';
 import premierepro from './tech/premiere_pro.png'
+import me from "./me.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import recho from "./projects/recho.png"
 import portfolio from "./projects/portfolio.png"
 import bus from "./projects/bus.png"
 import estate from "./projects/estate.png"
 import ps from "./projects/ps.png"
+import bs from "./projects/bronze_site.png"
+import pharma from "./projects/pharma.jpeg"
 
 export {
   logo,
@@ -69,9 +68,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   python,
   photoshop,
   premierepro,
@@ -83,5 +79,8 @@ export {
   portfolio,
   bus,
   estate,
-  ps
+  ps,
+  bs,
+  pharma,
+  me
 };

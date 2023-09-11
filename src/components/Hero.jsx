@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { me } from "../assets";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div className="relative w-full h-full mx-aut0 droper">
         <div
-          className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+          className={`absolute inset-0 top-[100px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
         >
           <div className='flex flex-col justify-center items-center mt-5'>
             <div className='w-5 h-5 rounded-full bg-secondary' />
@@ -20,13 +21,16 @@ const Hero = () => {
               Hi, I'm <span className='text-secondary'>Essi Junior</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2`}>
-              Fullstack - web, mobile, desktop - developer and <br className='sm:block hidden' />
-              software engineer
+              Fullstack - web, mobile, desktop - developer , <br className='sm:block hidden' />
+              software engineer and designer
             </p>
           </div>
         </div>
 
-        <ComputersCanvas />
+        <div className="my-image absolute inset-0 lg:top-[250px] top-[300px] w-[100%] h-full flex justify-center items-start">
+          <img src={me} alt="My image" className="lg:left-[35%] left-[0%] lg:w-[30%]" />
+        </div>
+        {/* <ComputersCanvas /> */}
         
         <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
           <a href='#about'>
